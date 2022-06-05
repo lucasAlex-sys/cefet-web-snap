@@ -1,8 +1,8 @@
 document.getElementById("visibilidade-das-marcacoes").addEventListener("change", function (e) {
-        let ocultarMarcacoes = document.getElementsByClassName("marcacao")[0].parentElement
-        ocultarMarcacoes.classList.toggle('marcacoes-ocultas')
+        let hideTags = document.getElementsByClassName("marcacao")[0].parentElement
+        hideTags.classList.toggle('marcacoes-ocultas')
     })
-    
+
 let eventClick = document.querySelector("#img"); 
 let xDown = 0
 let yDown = 0
